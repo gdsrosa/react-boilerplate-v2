@@ -8,5 +8,13 @@
   },
   "keywords": [],
   "author": "Gabriel Rosa <gabrieldsrosa@gmail.com> (https://github.com/gdsrosa)",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdsrosa/react-boilerplate-v2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gdsrosa/react-boilerplate-v2/issues"
+  },
+  "homepage": "https://github.com/gdsrosa/react-boilerplate-v2#readme"
 }

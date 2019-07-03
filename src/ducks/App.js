@@ -6,7 +6,7 @@ const Types = {
 // Reducer
 const initialState = {
   message:
-    'Redux in action! Go check the project structure to see the things under the hood.',
+    'Hey Redux here! Go check the project structure to see how the things works under the hood.',
   wasClicked: false,
 };
 

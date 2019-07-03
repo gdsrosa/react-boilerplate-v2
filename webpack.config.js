@@ -44,6 +44,7 @@ module.exports = ({ mode }) => ({
     alias: {
       components: path.resolve(__dirname, 'src/components/'),
       ducks: path.resolve(__dirname, 'src/ducks/'),
+      static: path.resolve(__dirname, 'src/static/'),
     },
   },
 });

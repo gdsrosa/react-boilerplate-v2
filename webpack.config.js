@@ -11,6 +11,7 @@ module.exports = ({ mode }) => ({
   },
   devServer: {
     hot: true,
+    port: 3000,
   },
   module: {
     rules: [

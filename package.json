@@ -6,8 +6,8 @@
   "scripts": {
     "webpack": "webpack",
     "webpack-dev-server": "webpack-dev-server",
-    "build": "npm run webpack -- --env.mode production",
-    "dev": "npm run webpack-dev-server -- --env.mode development --open",
+    "build": "yarn run webpack --env.mode production",
+    "dev": "yarn run webpack-dev-server --env.mode development --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

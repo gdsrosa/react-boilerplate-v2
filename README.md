@@ -1,6 +1,8 @@
 # React + Redux Boilerplate
 
-This is a updated version of my v1 boilerplate for React projects, this new v2 now container a bunch of new stuffs out of the box like styled-components, ESLint and Redux.
+This is a updated version of my v1 boilerplate for React projects, this new v2 now contains a bunch of new stuffs out of the box like styled-components, ESLint and Redux.
+
+This project uses Redux Ducks pattern. More about this pattern on this link [Ducks Modular Redux](https://github.com/erikras/ducks-modular-redux)
 
 ## Getting Started
 
@@ -13,12 +15,12 @@ cd <name-of-your-project>
 
 ### Installing
 
-Assuming you have all the Node.js and NPM environment setup in your machine:
+Assuming you have all the Node.js and Yarn environment setup in your machine:
 
 Let's install the dependencies
 
 ```
-npm install
+yarn
 ```
 
 ## Running the application in development mode
@@ -26,7 +28,7 @@ npm install
 To start your local webpack-dev-server run:
 
 ```
-npm run dev
+yarn run dev
 ```
 
 ## Built With
@@ -34,7 +36,7 @@ npm run dev
 - [ES6](http://es6-features.org/#Constants) - The programming language used for the Client
 - [React.js](https://reactjs.org/) - The UI library used for the Client
 - [Redux](https://redux.js.org/) - A predictable state container for JavaScript apps
-- [NPM](http://npmjs.org) - Dependency Management
+- [Yarn](https://yarnpkg.com/en/) - Dependency Management
 - [Sass](https://sass-lang.com/guide) - CSS Preprocessor
 - [Webpack](https://webpack.js.org) - Module Bundler
 - [Babel](https:/v/babeljs.io/) - JavaScript Transpiler

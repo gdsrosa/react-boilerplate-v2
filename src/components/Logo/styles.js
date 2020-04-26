@@ -1,15 +1,4 @@
-import React from 'react';
-import styled, { keyframes } from 'styled-components';
-
-import reactLogo from 'static/react-logo.png';
-import reduxLogo from 'static/redux-logo.png';
-
-const Logo = () => (
-  <Container>
-    <ImgRotate src={reactLogo} />
-    <ImgRotate src={reduxLogo} />
-  </Container>
-);
+import styled from 'styled-components';
 
 const Container = styled.div`
   align-items: center;
@@ -34,4 +23,4 @@ const ImgRotate = styled.img`
   margin: 2px;
 `;
 
-export default Logo;
+export { Container, ImgRotate };

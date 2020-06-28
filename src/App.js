@@ -1,8 +1,15 @@
-import React from 'react';
-import Application from 'components/app';
+import React, { useContext } from 'react';
+
+import Home from './pages/Home';
+import ThemeContext, { themes } from './context';
 
 function App() {
-  return <Application />;
+  const theme = useContext(ThemeContext);
+  return (
+    <ThemeContext.Provider value={themes}>
+      <Home />
+    </ThemeContext.Provider>
+  );
 }
 
 export default App;
